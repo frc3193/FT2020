@@ -32,7 +32,7 @@ DriveTrain::DriveTrain() : frc::Subsystem("DriveTrain") {
     groupRight.reset(new frc::SpeedControllerGroup(*rightA, *rightB));
 
     diffDrive.reset(new frc::DifferentialDrive(*groupLeft, *groupRight));
-    shiftSolenoid.reset(new frc::DoubleSolenoid(0, 1));
+    shiftSolenoid.reset(new frc::DoubleSolenoid(4, 5));
     shiftSolenoid->Set(frc::DoubleSolenoid::Value::kReverse);
     imu.reset(new frc::ADIS16448_IMU());
     GyroMotor.reset(new WPI_TalonFX(12));

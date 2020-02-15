@@ -24,7 +24,9 @@ LiftDefault::LiftDefault(): frc::Command() {
 
 // Called just before this Command runs the first time
 void LiftDefault::Initialize() {
-    Robot::lift->liftMotor->Set(0.0);
+    Robot::lift->liftMotorL->Set(0.0);
+    Robot::lift->liftMotorR->Set(0.0);
+
 
 }
 

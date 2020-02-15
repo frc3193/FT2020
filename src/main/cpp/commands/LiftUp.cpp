@@ -24,7 +24,8 @@ LiftUp::LiftUp(): frc::Command() {
 
 // Called just before this Command runs the first time
 void LiftUp::Initialize() {
-    Robot::lift->liftMotor->Set(-1.0);
+    Robot::lift->liftMotorL->Set(-1.0);
+    Robot::lift->liftMotorR->Set(1.0);
 }
 
 // Called repeatedly when this Command is scheduled to run
