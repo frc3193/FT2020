@@ -24,17 +24,24 @@ ShiftCommand::ShiftCommand(): frc::Command() {
 
 // Called just before this Command runs the first time
 void ShiftCommand::Initialize() {
-
+ 
 }
 
 // Called repeatedly when this Command is scheduled to run
 void ShiftCommand::Execute() {
-
+    if (Robot::driveTrain->shiftSolenoid->Get() == frc::DoubleSolenoid::Value::kForward)
+    {
+        Robot::driveTrain->shiftSolenoid->Set(frc::DoubleSolenoid::Value::kReverse);
+    }
+    else{
+        Robot::driveTrain->shiftSolenoid->Set(frc::DoubleSolenoid::Value::kForward);
+    }
+    
 }
 
 // Make this return true when this Command no longer needs to run execute()
 bool ShiftCommand::IsFinished() {
-    return false;
+    return true;
 }
 
 // Called once after isFinished returns true

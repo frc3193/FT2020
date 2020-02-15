@@ -24,7 +24,7 @@ ElevatorDefault::ElevatorDefault(): frc::Command() {
 
 // Called just before this Command runs the first time
 void ElevatorDefault::Initialize() {
-
+    Robot::elevator->elevateMotor->Set(0.0);
 }
 
 // Called repeatedly when this Command is scheduled to run

@@ -12,6 +12,7 @@
 
 #include "ctre/Phoenix.h"
 #include "frc/commands/Subsystem.h"
+#include "frc/AddressableLED.h"
 //#include "rev/CANSparkMax.h"
 //std::shared_ptr<rev::CANSparkMax> speedControllerName;
 
@@ -34,6 +35,12 @@ private:
 public:
 std::shared_ptr<WPI_TalonFX> shooterLeft;
 std::shared_ptr<WPI_TalonFX> shooterRight;
+
+std::shared_ptr<frc::AddressableLED> leds;
+static const int numLeds = 60;
+std::array<frc::AddressableLED::LEDData, numLeds> ledBuffer;
+
+void setLeds(frc::Color);
 
 float targetSpeed = 2000;
 const float SPEED_DELTA = 100;

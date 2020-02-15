@@ -1,5 +1,6 @@
 -o
 "C:\\Users\\andy\\Documents\\FRC Projects\\FT2020\\build\\exe\\frcUserProgram\\release\\frcUserProgram"
+"C:\\Users\\andy\\Documents\\FRC Projects\\FT2020\\build\\objs\\frcUserProgram\\release\\frcUserProgramCpp\\10mj7fxgarwggtekehgnwb70w\\AutoTurn.o"
 "C:\\Users\\andy\\Documents\\FRC Projects\\FT2020\\build\\objs\\frcUserProgram\\release\\frcUserProgramCpp\\1ao369jrgr8h39vb8styamghz\\DoNothing.o"
 "C:\\Users\\andy\\Documents\\FRC Projects\\FT2020\\build\\objs\\frcUserProgram\\release\\frcUserProgramCpp\\29o7tgkj7ib6umvafuge85rle\\DriveTrain.o"
 "C:\\Users\\andy\\Documents\\FRC Projects\\FT2020\\build\\objs\\frcUserProgram\\release\\frcUserProgramCpp\\2nuvj37o01guyyu41eoyvj3mb\\AutonomousCommand.o"
@@ -11,6 +12,7 @@
 "C:\\Users\\andy\\Documents\\FRC Projects\\FT2020\\build\\objs\\frcUserProgram\\release\\frcUserProgramCpp\\73hjz8z99pwrexckcjh89tqeh\\ShiftCommand.o"
 "C:\\Users\\andy\\Documents\\FRC Projects\\FT2020\\build\\objs\\frcUserProgram\\release\\frcUserProgramCpp\\7onxgcpasggg6n1r2u4p9am53\\Drive.o"
 "C:\\Users\\andy\\Documents\\FRC Projects\\FT2020\\build\\objs\\frcUserProgram\\release\\frcUserProgramCpp\\7vwghd0vxj0rfu8rbr6hwe2yf\\ElevatorReverse.o"
+"C:\\Users\\andy\\Documents\\FRC Projects\\FT2020\\build\\objs\\frcUserProgram\\release\\frcUserProgramCpp\\8ok3taf8jutka6g0wkx5mawxo\\AutoDrive.o"
 "C:\\Users\\andy\\Documents\\FRC Projects\\FT2020\\build\\objs\\frcUserProgram\\release\\frcUserProgramCpp\\95e1vf9jwm68znpq2mnpf55yc\\IncreaseShooterSpeed.o"
 "C:\\Users\\andy\\Documents\\FRC Projects\\FT2020\\build\\objs\\frcUserProgram\\release\\frcUserProgramCpp\\9vc9orqjvswezrr43a71p9cw9\\IntakeForword.o"
 "C:\\Users\\andy\\Documents\\FRC Projects\\FT2020\\build\\objs\\frcUserProgram\\release\\frcUserProgramCpp\\9wxwhbpou87whmdpomx5bwuyt\\IntakeReverse.o"

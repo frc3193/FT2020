@@ -31,10 +31,14 @@ void ShooterToggle::Initialize() {
 void ShooterToggle::Execute() {
     if (Robot::shooter->isShoot){
         Robot::shooter->isShoot = false;
+        Robot::shooter->setLeds(frc::Color::kRed);
     }
     else{
         Robot::shooter->isShoot = true;
+        Robot::shooter->setLeds(frc::Color::kGreen);
     }
+    
+    //Robot::shooter->leds->SetData(Robot::shooter->ledBuffer);
 }
 
 // Make this return true when this Command no longer needs to run execute()
