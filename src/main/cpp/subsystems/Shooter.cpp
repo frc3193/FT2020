@@ -39,6 +39,8 @@ Shooter::Shooter() : frc::Subsystem("Shooter") {
     shooterRight->Set(ControlMode::Follower, 0);
     shooterRight->SetInverted(TalonFXInvertType::OpposeMaster);
 
+    
+
     leds.reset(new frc::AddressableLED(7));
     leds->SetLength(numLeds);
     //std::fill_n(ledBuffer, numLeds, frc::Color::kAqua);

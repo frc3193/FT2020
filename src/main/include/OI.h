@@ -34,6 +34,12 @@ private:
 
 
 
+
+
+
+
+
+
 std::shared_ptr<frc::Joystick> coPilot;
 std::shared_ptr<frc::JoystickButton> rightStickIn2;
 std::shared_ptr<frc::JoystickButton> leftStickIn2;

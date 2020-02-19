@@ -1,52 +1,66 @@
 See file:///C:/Users/andy/Documents/FRC%20Projects/FT2020/build/tmp/compileFrcUserProgramDebugExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramDebugExecutableFrcUserProgramCpp.
-compiling AutonomousCommand.cpp successful.
+compiling AutoDrive.cpp successful.
 
-compiling DecreaseShooterSpeed.cpp successful.
+compiling AutonomousCommand.cpp successful.
 
 compiling AutoTurn.cpp successful.
 
-compiling ElevatorDefault.cpp successful.
+compiling DoNothing.cpp successful.
 
 compiling Drive.cpp successful.
 
+compiling ElevatorDefault.cpp successful.
+
 compiling ElevatorForward.cpp successful.
+
+compiling HookPull.cpp successful.
 
 compiling ElevatorReverse.cpp successful.
 
-compiling IncreaseShooterSpeed.cpp successful.
+compiling Hooksdefault.cpp successful.
 
-compiling IntakeDefault.cpp successful.
+compiling Hooksrelease.cpp successful.
+
+compiling IncreaseShooterSpeed.cpp successful.
 
 compiling IntakeForword.cpp successful.
 
+compiling IntakeDefault.cpp successful.
+
 compiling IntakeReverse.cpp successful.
 
-compiling LiftDefault.cpp successful.
+compiling IntakeToggle.cpp successful.
 
-compiling LiftDown.cpp successful.
-
-compiling DoNothing.cpp successful.
-
-compiling LiftUp.cpp successful.
+compiling ShiftCommand.cpp successful.
 
 compiling ShooterDefault.cpp successful.
 
 compiling ShooterToggle.cpp successful.
 
-compiling OI.cpp successful.
+compiling WinchDefault.cpp successful.
 
-compiling DriveTrain.cpp successful.
+compiling WinchDown.cpp successful.
+
+compiling Winchup.cpp successful.
+
+compiling OI.cpp successful.
 
 compiling Robot.cpp successful.
 
+compiling DriveTrain.cpp successful.
+
 compiling Elevator.cpp successful.
+
+compiling Hooks.cpp successful.
 
 compiling Intake.cpp successful.
 
-compiling Lift.cpp successful.
-
 compiling Shooter.cpp successful.
 
-compiling AutoDrive.cpp successful.
+compiling Winch.cpp successful.
+
+compiling DecreaseShooterSpeed.cpp successful.
+
+compiling BuddyLiftReliese.cpp successful.
 
 Finished compileFrcUserProgramDebugExecutableFrcUserProgramCpp, see full log file:///C:/Users/andy/Documents/FRC%20Projects/FT2020/build/tmp/compileFrcUserProgramDebugExecutableFrcUserProgramCpp/output.txt.
