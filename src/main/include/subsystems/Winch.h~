@@ -11,6 +11,7 @@
 #pragma once
 
 #include "frc/commands/Subsystem.h"
+#include "frc/DoubleSolenoid.h"
 
 #include "rev/CANSparkMax.h"
 
@@ -33,6 +34,7 @@ private:
 public:
 	std::shared_ptr<rev::CANSparkMax> winchLeft;
 	std::shared_ptr<rev::CANSparkMax> winchRight;
+	std::shared_ptr<frc::DoubleSolenoid> winchGo;
 Winch();
 	void InitDefaultCommand() override;
 	void Periodic() override;
