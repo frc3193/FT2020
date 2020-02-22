@@ -36,8 +36,18 @@ DriveTrain::DriveTrain() : frc::Subsystem("DriveTrain") {
     imu.reset(new frc::ADIS16448_IMU());
     imu->SetYawAxis(frc::ADIS16448_IMU::IMUAxis::kY);
     GyroMotor.reset(new WPI_TalonFX(12));
+    
 }
-
+double DriveTrain::GetLinearDistance(){
+    if (Robot::driveTrain->shiftSolenoid->Get() == frc::DoubleSolenoid::Value::kForward){
+        return LowGearRatio * CircumWheel * leftA->GetEncoder().GetPosition();
+    }
+    else {
+        return HighGearRatio * CircumWheel * leftA->GetEncoder().GetPosition();
+    }
+    
+    
+}
 void DriveTrain::InitDefaultCommand() {
     // Set the default command for a subsystem here.
     // SetDefaultCommand(new MySpecialCommand());

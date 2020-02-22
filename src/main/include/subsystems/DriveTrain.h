@@ -56,6 +56,8 @@ public:
 const double CircumWheel = 5.000 * 3.141592; //diameter is 5 inches
 const double LowGearRatio = 1 / 13.44;
 const double HighGearRatio = 1 / 5.39;
+double GetLinearDistance();
+bool isReversed = false;
 
 
 };
