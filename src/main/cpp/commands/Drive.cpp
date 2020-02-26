@@ -30,7 +30,7 @@ void Drive::Initialize(){
 // Called repeatedly when this Command is scheduled to run
 void Drive::Execute() {
 
-Robot::driveTrain->GyroMotor->Set(Robot::oi->getDriver()->GetRawAxis(Robot::oi->LEFT_Y_AXIS));
+//Robot::driveTrain->GyroMotor->Set(Robot::oi->getDriver()->GetRawAxis(Robot::oi->LEFT_Y_AXIS));
 if (Robot::driveTrain->isReversed == false)
 {
     Robot::driveTrain->diffDrive->TankDrive(Robot::oi->getDriver()->GetRawAxis(Robot::oi->LEFT_Y_AXIS),

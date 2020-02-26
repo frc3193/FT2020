@@ -36,8 +36,11 @@ Shooter::Shooter() : frc::Subsystem("Shooter") {
     shooterLeft->Config_kD(0, 0.0, 30);
 
     shooterRight.reset(new WPI_TalonFX(21));
-    shooterRight->Set(ControlMode::Follower, 0);
+    shooterRight->Set(ControlMode::Follower, 20);
     shooterRight->SetInverted(TalonFXInvertType::OpposeMaster);
+
+    shooterLeft->SetNeutralMode(ctre::phoenix::motorcontrol::NeutralMode::Brake);
+    shooterRight->SetNeutralMode(ctre::phoenix::motorcontrol::NeutralMode::Brake);
 
     
 

@@ -29,8 +29,8 @@ void IntakeDefault::Initialize() {
 
 // Called repeatedly when this Command is scheduled to run
 void IntakeDefault::Execute() {
-    // Robot::intake->intakeMotor->Set(0.0);
-    Robot::intake->intakeMotor->Set(Robot::oi->getDriver()->GetRawAxis(Robot::oi->RIGHT_Y_AXIS));
+     Robot::intake->intakeMotor->Set(0.0);
+    //Robot::intake->intakeMotor->Set(Robot::oi->getDriver()->GetRawAxis(Robot::oi->RIGHT_Y_AXIS));
 
 }
 

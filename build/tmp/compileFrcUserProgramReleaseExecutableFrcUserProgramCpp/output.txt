@@ -1,16 +1,6 @@
 See file:///C:/Users/andy/Documents/FRC%20Projects/FT2020/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramReleaseExecutableFrcUserProgramCpp.
-compiling ShooterToggle.cpp successful.
+compiling AutoGroup1.cpp successful.
 
-compiling AutoGoForwards.cpp successful.
-
-compiling Robot.cpp successful.
-C:\Users\andy\Documents\FRC Projects\FT2020\src\main\cpp\Robot.cpp: In member function 'virtual void Robot::DisabledInit()':
-C:\Users\andy\Documents\FRC Projects\FT2020\src\main\cpp\Robot.cpp:67:7: warning: unused variable 'isShoot' [-Wunused-variable]
-  bool isShoot = false;
-       ^~~~~~~
-C:\Users\andy\Documents\FRC Projects\FT2020\src\main\cpp\Robot.cpp: In member function 'virtual void Robot::TeleopInit()':
-C:\Users\andy\Documents\FRC Projects\FT2020\src\main\cpp\Robot.cpp:91:7: warning: unused variable 'isShoot' [-Wunused-variable]
-  bool isShoot = false;
-       ^~~~~~~
+compiling AutoDrive.cpp successful.
 
 Finished compileFrcUserProgramReleaseExecutableFrcUserProgramCpp, see full log file:///C:/Users/andy/Documents/FRC%20Projects/FT2020/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt.

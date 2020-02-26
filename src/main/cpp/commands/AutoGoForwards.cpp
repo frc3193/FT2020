@@ -12,7 +12,7 @@
 
 #include "Commands/AutoGoForwards.h"
 #include "Commands/AutoDrive.h"
-#include "Commands/ShooterToggle.h"
+#include "Commands/TimedShoot.h"
 #include "Commands/Delay.h"
 #include "Commands/TimedElevator.h"
 
@@ -28,13 +28,11 @@ AutoGoForwards::AutoGoForwards() {
     // e.g. AddSequential(new Command1());
     //      AddSequential(new Command2());
     // these will run in order.
-AddParallel(new ShooterToggle());
-AddSequential(new Delay(2.0));
+AddParallel(new TimedShoot(3.0, 2000));
+AddSequential(new Delay(1.0));
 AddParallel(new TimedElevator(2.0, 0.8));
 AddSequential(new Delay(4.0));
-AddSequential(new ShooterToggle());
-AddSequential(new ShooterToggle());
-AddSequential(new AutoDrive());
+AddSequential(new AutoDrive(20));
     // To run multiple commands at the same time,
     // use AddParallel()
     // e.g. AddParallel(new Command1());

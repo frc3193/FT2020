@@ -29,7 +29,7 @@ void ShooterToggle::Initialize() {
 
 // Called repeatedly when this Command is scheduled to run
 void ShooterToggle::Execute() {
-    if (Robot::shooter->isShoot){
+    if (Robot::shooter->isShoot == true){
         Robot::shooter->isShoot = false;
         Robot::shooter->setLeds(frc::Color::kRed);
     }
@@ -44,7 +44,6 @@ void ShooterToggle::Execute() {
 // Make this return true when this Command no longer needs to run execute()
 bool ShooterToggle::IsFinished() {
     return true;
-    
 }
 
 // Called once after isFinished returns true

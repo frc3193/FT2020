@@ -44,7 +44,7 @@ public:
 	std::shared_ptr<frc::DifferentialDrive> diffDrive;
 	std::shared_ptr<frc::DoubleSolenoid> shiftSolenoid;
 	std::shared_ptr<frc::ADIS16448_IMU> imu;
-	std::shared_ptr<WPI_TalonFX> GyroMotor;
+	//std::shared_ptr<WPI_TalonFX> GyroMotor;
 	DriveTrain();
 	void InitDefaultCommand() override;
 	void Periodic() override;

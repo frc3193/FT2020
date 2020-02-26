@@ -35,7 +35,7 @@ DriveTrain::DriveTrain() : frc::Subsystem("DriveTrain") {
     shiftSolenoid->Set(frc::DoubleSolenoid::Value::kReverse);
     imu.reset(new frc::ADIS16448_IMU());
     imu->SetYawAxis(frc::ADIS16448_IMU::IMUAxis::kY);
-    GyroMotor.reset(new WPI_TalonFX(12));
+    //GyroMotor.reset(new WPI_TalonFX(12));
     
 }
 double DriveTrain::GetLinearDistance(){
@@ -61,8 +61,9 @@ void DriveTrain::InitDefaultCommand() {
 void DriveTrain::Periodic() {
     // Put code here to be run every loop
     frc::SmartDashboard::PutNumber("GyroValue", imu->GetAngle());
-    frc::SmartDashboard::PutNumber("MotorSpeedOutput", GyroMotor->GetSelectedSensorVelocity());
+    //frc::SmartDashboard::PutNumber("MotorSpeedOutput", GyroMotor->GetSelectedSensorVelocity());
     frc::SmartDashboard::PutNumber("D leftA Pos", leftA->GetEncoder().GetPosition());
+    frc::SmartDashboard::PutNumber("DT Solenoid", shiftSolenoid->Get());
 }
 
 

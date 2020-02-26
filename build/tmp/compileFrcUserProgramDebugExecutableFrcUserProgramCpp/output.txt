@@ -1,4 +1,18 @@
 See file:///C:/Users/andy/Documents/FRC%20Projects/FT2020/build/tmp/compileFrcUserProgramDebugExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramDebugExecutableFrcUserProgramCpp.
-compiling Robot.cpp successful.
+compiling AutoGoBackwards.cpp successful.
+
+compiling AutoGoForwards.cpp successful.
+
+compiling AutoDrive.cpp successful.
+
+compiling TimedShoot.cpp successful.
+
+compiling Shooter.cpp successful.
+
+compiling OI.cpp successful.
+
+compiling AutoTurn.cpp successful.
+
+compiling AutoGroup1.cpp successful.
 
 Finished compileFrcUserProgramDebugExecutableFrcUserProgramCpp, see full log file:///C:/Users/andy/Documents/FRC%20Projects/FT2020/build/tmp/compileFrcUserProgramDebugExecutableFrcUserProgramCpp/output.txt.

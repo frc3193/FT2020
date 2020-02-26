@@ -29,7 +29,7 @@ void IntakeReverse::Initialize() {
 
 // Called repeatedly when this Command is scheduled to run
 void IntakeReverse::Execute() {
-    Robot::intake->intakeMotor->Set(-1.0);
+    Robot::intake->intakeMotor->Set(1.0);
 
 }
 
